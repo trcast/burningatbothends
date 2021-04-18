@@ -388,10 +388,6 @@ body{
   left: 70.2%;
 }
 
-.elevator_clock:hover{
-  transform: scale(1.2);
-}
-
 .elevator_open{
   position: absolute;
   width: 30%;
@@ -418,4 +414,43 @@ body{
 
 .elevator_static:hover{
   opacity: 0%;
+}
+
+.good_morning{
+  position: absolute;
+  width: 50%;
+  height: auto;
+  z-index: 800;
+  margin-top: 123.8%;
+  left: 3.0%;
+  opacity: 100%;
+}
+
+.kite{
+  position: absolute;
+  width: 50%;
+  height: auto;
+  z-index: 800;
+  margin-top: 120.8%;
+  left: 8.0%;
+  opacity: 100%;
+}
+
+.unconventional{
+  position: absolute;
+  width: 40%;
+  height: auto;
+  z-index: 300;
+  margin-top: 71.4%;
+  left: 52.7%;
+}
+
+.video_two{
+  position: absolute;
+  width: 48%;
+  height: auto;
+  z-index: 700;
+  margin-top: 132.8%;
+  left: 3.5%;
+  opacity: 100%;
 }

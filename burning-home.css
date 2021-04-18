@@ -1,42 +1,61 @@
 body{
-  background-color: white;s
-
+  background-color: white;
 }
 
-.page{
-  display:flex;
-  width: 1920px;
-  height: auto;
+.page_one{
+  display: flex;
+  height: 2000px;
+  width: auto;
+  background-color: white;
   flex-direction: column;
-  flex-wrap: wrap;
+}
+
+.ref{
+  z-index: +3;
+  opacity: 50%;
+  width: 100%;
 }
 
 .title{
   position: absolute;
-  width: 50%;
+  width: 47.5%;
   height: auto;
+  left: 2%;
+  margin-top: 2%;
 }
 
 .sticker{
  position: absolute;
  width: 15%;
  height: auto;
- left: 50%;
- margin-top: 3%;
+ left: 48%;
+ margin-top: 2%;
+ z-index: +2;
 }
 
 .armbolt{
   position: absolute;
-  width:70%;
+  width:74.4%;
   height: auto;
-  left: 30%;
-  z-index: -1;
+  left: 25.0%;
+  z-index: +1;
+  margin-top: 0.2%;
 }
 
 .video_one{
   position: absolute;
-  width:70%;
+  width: 91.6%;
   height: auto;
-  left: 30%;
-  z-index: -1;
+  z-index: 0;
+  margin-top: 36.2%;
+  left: 2.8%;
+}
+
+.line_graph{
+  position: absolute;
+  width: 8%;
+  height: 138%;
+  z-index: +1;
+  margin-top: 34.2%;
+  left: 92.1%;
 }

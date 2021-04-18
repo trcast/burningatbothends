@@ -11,7 +11,7 @@ body{
 }
 
 .ref{
-  z-index: +3;
+  z-index: 0;
   opacity: 50%;
   width: 100%;
 }
@@ -30,7 +30,7 @@ body{
  height: auto;
  left: 48%;
  margin-top: 2%;
- z-index: +2;
+ z-index: 2;
 }
 
 .armbolt{
@@ -38,7 +38,7 @@ body{
   width:74.4%;
   height: auto;
   left: 25.0%;
-  z-index: +1;
+  z-index: 42;
   margin-top: 0.2%;
 }
 
@@ -53,9 +53,369 @@ body{
 
 .line_graph{
   position: absolute;
-  width: 8%;
-  height: 138%;
-  z-index: +1;
+  width: 6.9%;
+  height: auto;
+  z-index: 1;
   margin-top: 34.2%;
-  left: 92.1%;
+  left: 92.7%;
+}
+
+.checker_box{
+  position: absolute;
+  width: 40.8%;
+  height: auto;
+  z-index: 2;
+  margin-top: 74.3%;
+  left: 52.6%;
+}
+
+#drag1 {
+  width: 70%;
+  height: auto;
+  padding: 15%;
+}
+
+#drag1:hover {
+  transform: scale(1.1);
+}
+
+#div_checker_one{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 6.2%;
+  height: auto;
+  margin-top: 75.4%;
+  left: 53.5%;
+  z-index: 200;
+}
+
+#div_checker_two{
+  position: absolute;
+  width: 6.2%;
+  height: auto;
+  margin-top: 75.4%;
+  left: 59.9%;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#div_checker_three{
+  position: absolute;
+  width: 6.2%;
+  height: auto;
+  margin-top: 75.4%;
+  left: 66.3%;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#div_checker_four{
+  position: absolute;
+  width: 6.2%;
+  height: auto;
+  margin-top: 81.8%;
+  left: 66.3%;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#div_checker_five{
+  position: absolute;
+  width: 6.2%;
+  height: auto;
+  margin-top: 81.8%;
+  left: 59.9%;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#div_checker_six{
+  position: absolute;
+  width: 6.2%;
+  height: auto;
+  margin-top: 81.8%;
+  left: 53.5%;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#div_checker_sixteen{
+  position: absolute;
+  width: 6.2%;
+  height: auto;
+  margin-top: 101%;
+  left: 53.5%;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#div_checker_seventeen{
+  position: absolute;
+  width: 6.2%;
+  height: auto;
+  margin-top: 101%;
+  left: 59.9%;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#div_checker_eighteen{
+  position: absolute;
+  width: 6.2%;
+  height: auto;
+  margin-top: 101%;
+  left: 66.3%;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#div_checker_nineteen{
+  position: absolute;
+  width: 6.2%;
+  height: auto;
+  margin-top: 101%;
+  left: 72.7%;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#div_checker_twenty{
+  position: absolute;
+  width: 6.2%;
+  height: auto;
+  margin-top: 101%;
+  left: 79.1%;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#div_checker_twentyone{
+  position: absolute;
+  width: 6.2%;
+  height: auto;
+  margin-top: 101%;
+  left: 85.5%;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#div_checker_twentytwo{
+  position: absolute;
+  width: 6.2%;
+  height: auto;
+  margin-top: 107.4%;
+  left: 53.5%;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#div_checker_twentythree{
+  position: absolute;
+  width: 6.2%;
+  height: auto;
+  margin-top: 107.4%;
+  left: 59.9%;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#div_checker_twentyfour{
+  position: absolute;
+  width: 6.2%;
+  height: auto;
+  margin-top: 107.4%;
+  left: 66.3%;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#div_checker_twentyfive{
+  position: absolute;
+  width: 6.2%;
+  height: auto;
+  margin-top: 107.4%;
+  left: 72.7%;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#div_checker_twentysix{
+  position: absolute;
+  width: 6.2%;
+  height: auto;
+  margin-top: 107.4%;
+  left: 79.1%;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#div_checker_twentyseven{
+  position: absolute;
+  width: 6.2%;
+  height: auto;
+  margin-top: 107.4%;
+  left: 85.5%;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.bottom_page{
+  position: absolute;
+  width: 6.8%;
+  height: auto;
+  z-index: 100;
+  margin-top: 95.8%;
+  left: 2.4%;
+}
+
+.bottom_page:hover{
+  transform: scale(1.5);
+  box-shadow: 5px 5px black;
+}
+
+
+.top_page{
+  position: absolute;
+  width: 6.8%;
+  height: auto;
+  z-index: 100;
+  margin-top: 100.4%;
+  left: 6.2%;
+}
+
+.top_page:hover{
+  transform: scale(1.5);
+  box-shadow: -5px 5px black;
+}
+
+.brain{
+  position: absolute;
+  width: 36%;
+  height: auto;
+  z-index: 1;
+  margin-top: 69.8%;
+  left: 3.4%;
+}
+
+.brain_bubble{
+  position: absolute;
+  width: 16%;
+  height: auto;
+  z-index: 40;
+  margin-top: 71.0%;
+  left: 37.5%;
+}
+
+.eyes{
+  position: absolute;
+  width: 53%;
+  height: auto;
+  z-index: 42;
+  margin-top: 90.0%;
+  left: 3.5%;
+}
+
+.window{
+  position: absolute;
+  width: 19%;
+  height: auto;
+  z-index: 10;
+  margin-top: 101.0%;
+  left: 33.5%;
+}
+
+.dashes{
+  position: absolute;
+  width: 37%;
+  height: auto;
+  z-index: 10;
+  margin-top: 116.0%;
+  left: 54.5%;
+}
+
+.elevator_box{
+  position: absolute;
+  width: 7%;
+  height: auto;
+  z-index: 799;
+  margin-top: 146.5%;
+  left: 89.7%;
+}
+
+.elevator_clock{
+  position: absolute;
+  width: 5.8%;
+  height: auto;
+  z-index: 804;
+  margin-top: 134.5%;
+  left: 70.2%;
+}
+
+.elevator_clock:hover{
+  transform: scale(1.2);
+}
+
+.elevator_open{
+  position: absolute;
+  width: 30%;
+  height: auto;
+  z-index: 802;
+  margin-top: 133.8%;
+  left: 58.3%;
+  opacity: 0%;
+}
+
+.elevator_open:hover{
+  opacity: 100%;
+}
+
+.elevator_static{
+  position: absolute;
+  width: 30%;
+  height: auto;
+  z-index: 800;
+  margin-top: 133.8%;
+  left: 58.3%;
+  opacity: 100%;
+}
+
+.elevator_static:hover{
+  opacity: 0%;
 }

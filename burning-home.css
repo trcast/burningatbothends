@@ -454,3 +454,304 @@ body{
   left: 3.5%;
   opacity: 100%;
 }
+
+.key{
+  position: absolute;
+  width: 10%;
+  height: auto;
+  z-index: 700;
+  margin-top: 166.8%;
+  left: 49.5%;
+  opacity: 100%;
+}
+
+.desert{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  z-index: 2;
+  margin-top: 166.6%;
+  left: 0%;
+  opacity: 100%;
+}
+
+.flow{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  z-index: 0;
+  margin-top: 116.6%;
+  left: 0%;
+  opacity: 100%;
+}
+
+.messages{
+  position: absolute;
+  width: 57.9%;
+  height: auto;
+  z-index: 3;
+  margin-top: 205.6%;
+  left: 40.1%;
+  opacity: 100%;
+}
+
+.house{
+  position: absolute;
+  width:99%;
+  height: auto;
+  z-index: -1;
+  margin-top: 229.9%;
+  left: 1.4%;
+  opacity: 100%;
+}
+
+.room_bg{
+  position: absolute;
+  width:76%;
+  height: auto;
+  z-index: 3;
+  margin-top: 308.3%;
+  left: 12.4%;
+  opacity: 100%;
+}
+
+.room_book{
+  position: absolute;
+  width:13%;
+  height: auto;
+  z-index: 3;
+  margin-top: 349.3%;
+  left: 53.4%;
+  opacity: 100%;
+}
+
+.room_eye{
+  position: absolute;
+  width:17.3%;
+  height: auto;
+  z-index: 3;
+  margin-top: 318.5%;
+  left: 63.6%;
+  opacity: 100%;
+}
+
+.room_plane{
+  position: absolute;
+  width:78%;
+  height: auto;
+  z-index: 3;
+  margin-top: 308.6%;
+  left: 12.8%;
+  opacity: 100%;
+}
+
+.four_high{
+  position: absolute;
+  width:10%;
+  height: auto;
+  z-index: 4;
+  margin-top: 372.4%;
+  left: 58.8%;
+  opacity: 0%;
+}
+
+.four_high:hover{
+  opacity: 100%;
+}
+
+.four_low{
+  position: absolute;
+  width:10%;
+  height: auto;
+  z-index: 3;
+  margin-top: 372.4%;
+  left: 58.8%;
+  opacity: 100%;
+}
+
+.four_low:hover{
+  opacity: 0%;
+}
+
+.three_high{
+  position: absolute;
+  width:10%;
+  height: auto;
+  z-index: 4;
+  margin-top: 372.4%;
+  left: 45.5%;
+  opacity: 0%;
+}
+
+.three_high:hover{
+  opacity: 100%;
+}
+
+.three_low{
+  position: absolute;
+  width:10%;
+  height: auto;
+  z-index: 3;
+  margin-top: 372.4%;
+  left: 45.5%;
+  opacity: 100%;
+}
+
+.three_low:hover{
+  opacity: 0%;
+}
+
+.two_high{
+  position: absolute;
+  width:10%;
+  height: auto;
+  z-index: 4;
+  margin-top: 372.4%;
+  left: 32.2%;
+  opacity: 0%;
+}
+
+.two_high:hover{
+  opacity: 100%;
+}
+
+.two_low{
+  position: absolute;
+  width:10%;
+  height: auto;
+  z-index: 3;
+  margin-top: 372.4%;
+  left: 32.2%;
+  opacity: 100%;
+}
+
+.two_low:hover{
+  opacity: 0%;
+}
+
+.one_high{
+  position: absolute;
+  width:10%;
+  height: auto;
+  z-index: 4;
+  margin-top: 372.4%;
+  left: 18.9%;
+  opacity: 0%;
+}
+
+.one_high:hover{
+  opacity: 100%;
+}
+
+.one_low{
+  position: absolute;
+  width:10%;
+  height: auto;
+  z-index: 3;
+  margin-top: 372.4%;
+  left: 18.9%;
+  opacity: 100%;
+}
+
+.one_low:hover{
+  opacity: 0%;
+}
+
+.room_two_bg{
+  position: absolute;
+  width:99%;
+  height: auto;
+  z-index: 2;
+  margin-top: 365%;
+  left: 2.3%;
+  opacity: 100%;
+}
+
+.room_candle{
+  position: absolute;
+  width:3%;
+  height: auto;
+  z-index: 3;
+  margin-top: 398%;
+  left: 14.3%;
+  opacity: 100%;
+}
+
+.fish_flat{
+  position: absolute;
+  width:17%;
+  height: auto;
+  z-index: 11;
+  margin-top: 414.6%;
+  left: 60.4%;
+  opacity: 100%;
+}
+
+.fish_flat:hover{
+  opacity: 0%;
+}
+
+.fish_flop{
+  position: absolute;
+  width:17%;
+  height: auto;
+  z-index:10;
+  margin-top: 414.6%;
+  left: 60.4%;
+  opacity: 0%;
+}
+
+.fish_flop:hover{
+  opacity: 100%;
+}
+
+#seconds {
+  font-size: 8em;
+  font-style: italic;
+  font-family: sans-serif;
+  font-weight: bold;
+  position: absolute;
+  width:99%;
+  height: auto;
+  z-index: 2;
+  margin-top: 394.5%;
+  left: 44.7%;
+  opacity: 98%;
+}
+
+#minutes {
+  font-size: 8em;
+  font-style: italic;
+  font-family: sans-serif;
+  font-weight: bold;
+  position: absolute;
+  width:99%;
+  height: auto;
+  z-index: 2;
+  margin-top: 394.5%;
+  left: 33.3%;
+  opacity: 98%;
+}
+#colon {
+  font-size: 8em;
+  font-style: italic;
+  font-family: sans-serif;
+  font-weight: bold;
+  position: absolute;
+  width:99%;
+  height: auto;
+  z-index: 2;
+  margin-top: 393.7%;
+  left: 42.2%;
+  opacity: 87%;
+}
+
+.head{
+  position: absolute;
+  width:55%;
+  height: auto;
+  z-index:14;
+  margin-top: 409.0%;
+  left: 4.1%;
+  opacity: 100%;
+}

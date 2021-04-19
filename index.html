@@ -201,7 +201,82 @@
 
       <img src="gifs/n_unconventional.gif" class="unconventional">
 
-      <img src="gifs/o_video_box_two.gif" class="video_two"">
+      <img src="gifs/o_video_box_two.gif" class="video_two">
+
+      <img src="gifs/p_key.gif" class="key">
+
+      <img src="gifs/q_desert.gif" class="desert">
+
+      <img src="gifs/r_flow.gif" class="flow">
+
+      <img src="gifs/s_messages.gif" class="messages">
+
+      <img src="gifs/t_house.gif" class="house">
+
+      <img src="gifs/u_room_bg.gif" class="room_bg">
+
+      <img src="gifs/u_room_book.gif" class="room_book">
+
+      <img src="gifs/u_room_eye.gif" class="room_eye">
+
+      <img src="gifs/u_room_plane.gif" class="room_plane">
+
+      <img src="gifs/v_folder_four_high.gif" class="four_high">
+
+      <img src="gifs/v_folder_four_low.gif" class="four_low">
+
+      <img src="gifs/v_folder_three_high.gif" class="three_high">
+
+      <img src="gifs/v_folder_three_low.gif" class="three_low">
+
+      <img src="gifs/v_folder_two_high.gif" class="two_high">
+
+      <img src="gifs/v_folder_two_low.gif" class="two_low">
+
+      <img src="gifs/v_folder_one_high.gif" class="one_high">
+
+      <img src="gifs/v_folder_one_low.gif" class="one_low">
+
+      <img src="gifs/v_room_bg.gif" class="room_two_bg">
+
+      <img src="gifs/v_room_candle.gif" class="room_candle">
+
+      <img src="gifs/v_room_fish_flat.gif" class="fish_flat">
+
+      <img src="gifs/v_room_fish_flop.gif" class="fish_flop">
+
+      <label id="minutes">00</label>
+<label id="colon">:</label>
+<label id="seconds">00</label>
+    <script type="text/javascript">
+        var minutesLabel = document.getElementById("minutes");
+        var secondsLabel = document.getElementById("seconds");
+        var totalSeconds = 0;
+        setInterval(setTime, 1000);
+
+        function setTime()
+        {
+            ++totalSeconds;
+            secondsLabel.innerHTML = pad(totalSeconds%60);
+            minutesLabel.innerHTML = pad(parseInt(totalSeconds/60));
+        }
+
+        function pad(val)
+        {
+            var valString = val + "";
+            if(valString.length < 2)
+            {
+                return "0" + valString;
+            }
+            else
+            {
+                return valString;
+            }
+        }
+    </script>
+
+      <img src="gifs/w_head.gif" class="head">
+
 
 
       </div>

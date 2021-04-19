@@ -715,7 +715,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  max-height: 10%;
+  max-height: 8%;
   max-width: auto;
   z-index:10;
   margin-top: 395.5vw;
@@ -725,7 +725,7 @@ body{
 
 .text_clock{
   opacity: 100%;
-  font-size:3.5vw;
+  font-size:3.3vw;
   font-style: italic;
   font-weight: bold;
   font-family: "Helvetica Neue";
@@ -814,6 +814,8 @@ body{
 
 .name{
   position: relative;
+  width: 200%;
+  height: auto;
 }
 
 .name_box{
@@ -821,14 +823,14 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  width:50%;
-  height: auto;
+  max-width:48%;
+  max-height: 10%;
   z-index:14;
   margin-top: 492.7%;
   left:10%;
   opacity: 100%;
   border-style: solid;
-  border-width: 2px;
+  border-width: .15vw;
   border-color: black;
   border-radius:50vw;
   background-color: white;

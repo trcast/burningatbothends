@@ -4,10 +4,11 @@ body{
 
 .page_one{
   display: flex;
-  height: 2000px;
+  height: 2000;
   width: auto;
   background-color: white;
   flex-direction: column;
+  margin-top: -1%;
 }
 
 .ref{
@@ -30,7 +31,7 @@ body{
  height: auto;
  left: 48%;
  margin-top: 2%;
- z-index: 2;
+ z-index: 43;
 }
 
 .armbolt{
@@ -500,7 +501,7 @@ body{
   width:99%;
   height: auto;
   z-index: -1;
-  margin-top: 229.9%;
+  margin-top: 228.9%;
   left: 1.4%;
   opacity: 100%;
 }
@@ -753,5 +754,75 @@ body{
   z-index:14;
   margin-top: 409.0%;
   left: 4.1%;
+  opacity: 100%;
+}
+
+.door{
+  position: absolute;
+  width:88%;
+  height: auto;
+  z-index:14;
+  margin-top: 436.0%;
+  left: -1%;
+  opacity: 100%;
+}
+
+.bell{
+  position: absolute;
+  width:10%;
+  height: auto;
+  z-index:14;
+  margin-top: 458.0%;
+  left: 88%;
+  opacity: 100%;
+}
+
+.cherry{
+  position: absolute;
+  width:9%;
+  height: auto;
+  z-index:14;
+  margin-top: 447.0%;
+  left: 88%;
+  opacity: 100%;
+}
+
+.clover{
+  position: absolute;
+  width:9%;
+  height: auto;
+  z-index:14;
+  margin-top: 470.0%;
+  left: 88%;
+  opacity: 100%;
+}
+
+.orange{
+  position: absolute;
+  width:9%;
+  height: auto;
+  z-index:14;
+  margin-top: 436.0%;
+  left: 88%;
+  opacity: 100%;
+}
+
+.seven{
+  position: absolute;
+  width:9%;
+  height: auto;
+  z-index:14;
+  margin-top: 481.0%;
+  left: 88%;
+  opacity: 100%;
+}
+
+.backtotop{
+  position: absolute;
+  width:20%;
+  height: auto;
+  z-index:14;
+  margin-top: 490.0%;
+  left: 40%;
   opacity: 100%;
 }

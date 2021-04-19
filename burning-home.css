@@ -1,7 +1,8 @@
 body{
   background-color: white;
   height: auto;
-  width: auto;
+  width: 100%;
+  cursor: default;
 }
 
 .page_one{
@@ -24,6 +25,15 @@ body{
   left: 2%;
   margin-top: 2%;
 }
+
+/* .total{
+  display: flex;
+  height: auto;
+  width: auto;
+  padding: 10px;
+  z-index: 8;
+  background-color: yellow;
+} */
 
 .sticker{
  position: absolute;
@@ -70,15 +80,18 @@ body{
   left: 52.6%;
 }
 
-#drag1 {
+#drag1, #drag2, #drag3, #drag4, #drag5, #drag6, #drag16, #drag17, #drag18, #drag19, #drag20, #drag21, #drag22, #drag23, #drag24, #drag25, #drag26, #drag27{
   width: 70%;
   height: auto;
   padding: 15%;
+  cursor: grab;
 }
 
-#drag1:hover {
+#drag1, #drag2, #drag3, #drag4, #drag5, #drag6, #drag16, #drag17, #drag18, #drag19, #drag20, #drag21, #drag22, #drag23, #drag24, #drag25, #drag26, #drag27:hover {
   transform: scale(1.1);
 }
+
+
 
 #div_checker_one{
   display: flex;
@@ -309,6 +322,7 @@ body{
 .bottom_page:hover{
   transform: scale(1.5);
   box-shadow: 5px 5px black;
+  cursor: zoom-in;
 }
 
 
@@ -324,6 +338,7 @@ body{
 .top_page:hover{
   transform: scale(1.5);
   box-shadow: -5px 5px black;
+  cursor: zoom-in;
 }
 
 .brain{
@@ -718,7 +733,7 @@ body{
   max-height: 8%;
   max-width: auto;
   z-index:10;
-  margin-top: 395.5vw;
+  margin-top: 391.9vw;
   left: 33.4%;
   opacity: 100%;
 }
@@ -802,19 +817,75 @@ body{
   opacity: 100%;
 }
 
-.backtotop{
+.backtotop_button:hover{
+  cursor: pointer;
+  transform: translate( -5px, -5px);
+  box-shadow: 5px 5px black;
+  border-bottom: solid;
+  border-right: solid;
+}
+
+.backtotop_button{
   position: absolute;
-  width:35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:30%;
   height: auto;
   z-index:14;
-  margin-top: 492.1%;
-  left: 65%;
+  left:62.8%;
   opacity: 100%;
+  border-style: dashed;
+  border-width: .15vw;
+  border-color: black;
+  background-color: white;
+  margin-top: 493.1%;
+}
+
+h2{
+  opacity: 100%;
+  font-size:2vw;
+  font-weight: bold;
+  font-family: "Helvetica Neue";
+  font-kerning: normal;
+}
+
+h2:hover span{
+  display: none;
+}
+
+h2:hover:before{
+  content: "YOU REALLY SAW IT ALL?"
+}
+
+h1{
+  opacity: 100%;
+  font-size:2vw;
+  font-weight: bold;
+  font-family: "Helvetica Neue";
+  font-kerning: normal;
+}
+
+h1:hover span{
+  display: none;
+}
+
+h1:hover:before{
+  content: "THANKS FOR STOPPING BY!"
+}
+
+a{
+  color:black;
+}
+
+a:visited{
+  color: black;
+  text-decoration: none;
 }
 
 .name{
   position: relative;
-  width: 200%;
+  width: 100%;
   height: auto;
 }
 
@@ -823,23 +894,26 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width:48%;
-  max-height: 10%;
+  width: 30%;
+  height: auto;
   z-index:14;
-  margin-top: 492.7%;
-  left:10%;
+  margin-top: 485.5%;
+  left:50.8%;
   opacity: 100%;
-  border-style: solid;
+  border-style: dashed;
   border-width: .15vw;
   border-color: black;
-  border-radius:50vw;
   background-color: white;
 }
 
-/* .name_box:hover{
-  transform: translate(0px, -10px);
+.name_box:hover{
+  cursor: pointer;
+  transform: translate( -5px, -5px);
   box-shadow: 5px 5px black;
-} */
+  border-bottom: solid;
+  border-right: solid;
+}
+
 
 .scale{
   position: absolute;

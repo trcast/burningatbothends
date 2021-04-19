@@ -4,11 +4,10 @@ body{
 
 .page_one{
   display: flex;
-  height: 2000;
+  height: auto;
   width: auto;
   background-color: white;
-  flex-direction: column;
-  margin-top: -1%;
+
 }
 
 .ref{
@@ -496,11 +495,11 @@ body{
   opacity: 100%;
 }
 
-.house{
+.house_gif{
   position: absolute;
   width:99%;
   height: auto;
-  z-index: -1;
+  z-index: 1;
   margin-top: 228.9%;
   left: 1.4%;
   opacity: 100%;

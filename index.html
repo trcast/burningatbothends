@@ -85,9 +85,7 @@
 
     <body>
 
-<!-- <div class="page_one"> -->
-
-      <!-- <img src="lobby_ref.jpg" class="ref"> -->
+        <!-- <img src="lobby_ref.jpg" class="ref"> -->
 
       <img src="gifs/a_title.gif" class="title">
 
@@ -245,6 +243,40 @@
 
       <img src="gifs/v_room_fish_flop.gif" class="fish_flop">
 
+<div class="clock">
+<p id="demo" class="text_clock"></p>
+</div>
+
+<script>
+      // Set the date we're counting down to
+      var countDownDate = new Date("Feb 22, 2022 22:22:22").getTime();
+
+      // Update the count down every 1 second
+      var x = setInterval(function() {
+
+        // Get today's date and time
+        var now = new Date().getTime();
+
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
+
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Output the result in an element with id="demo"
+        document.getElementById("demo").innerHTML = days + ":" + hours + ":"
+        + minutes + ":" + seconds + "";
+
+        // If the count down is over, write some text
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("demo").innerHTML = "EXPIRED";
+        }
+      }, 1000);
+</script>
 
 
       <img src="gifs/w_head.gif" class="head">
@@ -261,8 +293,15 @@
 
       <img src="gifs/y_seven.gif" class="seven">
 
+      <img src="gifs/z_backtotop.gif" class="backtotop">
 
-      <!-- </div> -->
+  <a href="https://www.theresacastellucci.com/about" target="_blank" rel="noreferrer noopener">  <div class="name_box">
+        <marquee behavior="scroll" direction="left" scrollamount="10" onmouseover="this.stop();" onmouseout="this.start();">
+    <img src="gifs/z_name.gif" class="name">
+        </marquee>
+  </div> </a>
+
+      <img src="gifs/z_scale.gif" class="scale">
 
     </body>
 

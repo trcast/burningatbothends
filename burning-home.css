@@ -821,7 +821,6 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  align-self: auto;
   width:50%;
   height: auto;
   z-index:14;
@@ -831,7 +830,7 @@ body{
   border-style: solid;
   border-width: 2px;
   border-color: black;
-  border-radius:50px;
+  border-radius:50vw;
   background-color: white;
 }
 

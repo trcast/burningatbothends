@@ -44,6 +44,11 @@ body{
  z-index: 43;
 }
 
+.sticker:hover{
+  transform: scale(1.1);
+  cursor: zoom-in;
+}
+
 .armbolt{
   position: absolute;
   width:74.4%;
@@ -416,6 +421,7 @@ body{
 
 .elevator_open:hover{
   opacity: 100%;
+  cursor: s-resize;
 }
 
 .elevator_static{
@@ -477,7 +483,7 @@ body{
   height: auto;
   z-index: 700;
   margin-top: 166.8%;
-  left: 49.5%;
+  left: 49.8%;
   opacity: 100%;
 }
 
@@ -559,6 +565,21 @@ body{
   margin-top: 308.6%;
   left: 12.8%;
   opacity: 100%;
+}
+
+.chair{
+  position: absolute;
+  width:12.5%;
+  height: auto;
+  z-index: 3;
+  margin-top: 343.5%;
+  left: 16.8%;
+  opacity: 100%;
+}
+
+.chair:hover{
+  transform: translate(0px, -10px);
+  cursor: help;
 }
 
 .four_high{
@@ -693,33 +714,34 @@ body{
   opacity: 100%;
 }
 
+
 .fish_flat{
   position: absolute;
   width:17%;
   height: auto;
-  z-index: 11;
-  margin-top: 413.6%;
+  z-index: 14;
+  margin-top: 409.6%;
   left: 60.4%;
   opacity: 100%;
 }
 
 .fish_flat:hover{
-  opacity: 0%;
+  content: url('gifs/v_room_fish_flop.gif');
 }
 
-.fish_flop{
+/* .fish_flop{
   position: absolute;
   width:17%;
   height: auto;
-  z-index:10;
-  margin-top: 413.6%;
+  z-index: 15;
+  margin-top: 409.6%;
   left: 60.4%;
   opacity: 0%;
 }
 
 .fish_flop:hover{
   opacity: 100%;
-}
+} */
 
 #demo{
   position: relative;

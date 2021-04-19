@@ -3,11 +3,10 @@ body{
 }
 
 .page_one{
+  position: absolute;
   display: flex;
-  height: auto;
+  height: 100%;
   width: auto;
-  background-color: white;
-
 }
 
 .ref{
@@ -703,47 +702,6 @@ body{
 
 .fish_flop:hover{
   opacity: 100%;
-}
-
-#seconds {
-  font-size: 8em;
-  font-style: italic;
-  font-family: sans-serif;
-  font-weight: bold;
-  position: absolute;
-  width:99%;
-  height: auto;
-  z-index: 2;
-  margin-top: 394.5%;
-  left: 44.7%;
-  opacity: 98%;
-}
-
-#minutes {
-  font-size: 8em;
-  font-style: italic;
-  font-family: sans-serif;
-  font-weight: bold;
-  position: absolute;
-  width:99%;
-  height: auto;
-  z-index: 2;
-  margin-top: 394.5%;
-  left: 33.3%;
-  opacity: 98%;
-}
-#colon {
-  font-size: 8em;
-  font-style: italic;
-  font-family: sans-serif;
-  font-weight: bold;
-  position: absolute;
-  width:99%;
-  height: auto;
-  z-index: 2;
-  margin-top: 393.7%;
-  left: 42.2%;
-  opacity: 87%;
 }
 
 .head{

@@ -855,7 +855,7 @@ body{
   width:30%;
   height: auto;
   z-index:14;
-  left:62.8%;
+  left:67.8%;
   opacity: 100%;
   border-style: dashed;
   border-width: .15vw;
@@ -877,7 +877,7 @@ h2:hover span{
 }
 
 h2:hover:before{
-  content: "YOU REALLY SAW IT ALL?"
+  content: "DID YOU CATCH THAT?"
 }
 
 h1{
@@ -919,21 +919,22 @@ a:visited{
   width: 30%;
   height: auto;
   z-index:14;
-  margin-top: 485.5%;
-  left:50.8%;
+  margin-top: 493.1%;
+  left:1.5%;
   opacity: 100%;
   border-style: dashed;
   border-width: .15vw;
   border-color: black;
   background-color: white;
+  padding: .3%;
 }
 
 .name_box:hover{
   cursor: pointer;
-  transform: translate( -5px, -5px);
-  box-shadow: 5px 5px black;
+  transform: translate( 5px, -5px);
+  box-shadow: -5px 5px black;
   border-bottom: solid;
-  border-right: solid;
+  border-left: solid;
 }
 
 
